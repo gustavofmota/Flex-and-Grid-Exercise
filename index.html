@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Layout Master</title>
+		<title>Flex and Grid Exercise</title>
 		<link rel="stylesheet" type="text/css" href="./reset.css" />
 		<link rel="stylesheet" type="text/css" href="./style.css" />
 		<link rel="stylesheet" type="text/css" href="./myStyle.css" />
 	</head>
 	<body>
-		<main>
-			<header>
-				<div class="zone green">Header</div>
+		<main class="h-100-per w-100-vw">
+			<header class="w-100-vw">
+				<div class="zone green w-100-vw">Header</div>
 			</header>
 
-			<section>
-				<div class="zone red">Cover</div>
-			</section>
+			<div class="content w-100-vw h-100-per">
+				<section class="h-100-per">
+					<div class="zone red w-100-vw h-100-per">Cover</div>
+				</section>
 
-			<section>
-				<div class="zone blue">Project Grid</div>
-			</section>
+				<section class="h-100-per">
+					<div class="zone blue w-100-vw h-100-per">Project Grid</div>
+				</section>
+			</div>
 
-			<footer>
-				<div class="zone yellow">Footer</div>
+			<footer class="w-100-per">
+				<div class="zone yellow w-100-vw">Footer</div>
 			</footer>
 		</main>
 	</body>
